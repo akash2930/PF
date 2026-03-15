@@ -11,7 +11,7 @@ const CONFIG = {
   // ⚠️  Replace with your actual Groq API key before deploying.
   //     On Netlify/Vercel, inject via environment variables and a
   //     serverless function — never expose this key client-side in production.
-  GROQ_API_KEY: 'YOUR_GROQ_API_KEY',
+  GROQ_API_KEY: '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',
 
   GROQ_API_URL: 'https://api.groq.com/openai/v1/chat/completions',
   GROQ_MODEL:   'llama-3.3-70b-versatile',
