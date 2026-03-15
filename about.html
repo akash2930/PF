@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us — PromptForge</title>
+  <meta name="description" content="Learn about PromptForge — the AI-powered prompt generator built for engineers, creators, and anyone who wants better results from AI." />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ══ HEADER ══════════════════════════════════════════════ -->
+<header id="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        Prompt<span>Forge</span>
+      </a>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Generator</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html" class="btn-nav-cta">Try Free</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+    <a href="index.html">Generator</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+  </nav>
+</header>
+<!-- ══ END HEADER ══════════════════════════════════════════ -->
+
+
+<!-- ══ PAGE HERO ════════════════════════════════════════════ -->
+<section class="page-hero section">
+  <div class="container">
+    <div class="tag tag-amber">About Us</div>
+    <h1>We believe<br/><span style="color: var(--amber-400);">better prompts</span> change everything</h1>
+    <div class="amber-line"></div>
+    <p class="lead">
+      PromptForge was built out of frustration with bad AI outputs —
+      the kind that come from vague, poorly structured prompts.
+      We set out to fix that.
+    </p>
+  </div>
+</section>
+
+
+<!-- ══ STORY ════════════════════════════════════════════════ -->
+<section class="section" style="padding-top: 0;">
+  <div class="container">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: start;">
+
+      <div>
+        <h2 style="margin-bottom: 20px;">Our Story</h2>
+        <p style="margin-bottom: 16px;">
+          When large language models went mainstream, we saw the same pattern everywhere:
+          powerful models being held back by weak prompts. Developers, writers, marketers,
+          and researchers were all leaving enormous value on the table simply because
+          prompt engineering is genuinely hard to do well.
+        </p>
+        <p style="margin-bottom: 16px;">
+          PromptForge was born from that gap. By pairing a thoughtful UX with
+          Groq's blazing-fast Llama 3.3 inference, we created a tool that transforms
+          a rough idea into a production-ready, model-aware prompt — in under two seconds.
+        </p>
+        <p>
+          Today, PromptForge is used by indie developers, AI teams, content creators,
+          and researchers who want consistently great results from every model they touch.
+        </p>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 20px;">
+
+        <div class="card" style="border-left: 3px solid var(--amber-500);">
+          <div style="font-family: var(--font-display); font-size: 2rem; font-weight: 800; color: var(--amber-400); margin-bottom: 6px;">Mission</div>
+          <p style="font-size: 0.9rem;">
+            To make exceptional AI prompting accessible to everyone —
+            not just those who've spent months studying model quirks.
+          </p>
+        </div>
+
+        <div class="card" style="border-left: 3px solid var(--amber-500);">
+          <div style="font-family: var(--font-display); font-size: 2rem; font-weight: 800; color: var(--amber-400); margin-bottom: 6px;">Vision</div>
+          <p style="font-size: 0.9rem;">
+            A world where the quality of AI output is never limited by the quality
+            of the instruction given to it.
+          </p>
+        </div>
+
+        <div class="card" style="border-left: 3px solid var(--amber-500);">
+          <div style="font-family: var(--font-display); font-size: 2rem; font-weight: 800; color: var(--amber-400); margin-bottom: 6px;">Values</div>
+          <p style="font-size: 0.9rem;">
+            Speed, transparency, and respect for user privacy.
+            We don't collect your prompts or sell your data — full stop.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══ TECH STACK ════════════════════════════════════════════ -->
+<section class="section" style="padding-top: 0; padding-bottom: 72px;">
+  <div class="container">
+    <div style="
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      padding: 48px;
+    ">
+      <div style="text-align: center; margin-bottom: 40px;">
+        <div class="tag tag-neutral" style="margin: 0 auto 16px;">Under the Hood</div>
+        <h2>Built on best-in-class technology</h2>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;">
+
+        <div style="text-align: center; padding: 24px 16px;">
+          <div style="font-size: 2.5rem; margin-bottom: 12px;">⚡</div>
+          <h3 style="font-size: 1rem; margin-bottom: 8px;">Groq Inference</h3>
+          <p style="font-size: 0.85rem;">LPU-powered inference delivers deterministic, low-latency results — consistently under 2 seconds.</p>
+        </div>
+
+        <div style="text-align: center; padding: 24px 16px; border-left: 1px solid var(--border); border-right: 1px solid var(--border);">
+          <div style="font-size: 2.5rem; margin-bottom: 12px;">🦙</div>
+          <h3 style="font-size: 1rem; margin-bottom: 8px;">Llama 3.3 70B</h3>
+          <p style="font-size: 0.85rem;">Meta's flagship open-weight model. Instruction-following, nuanced, and capable of expert-level prompt design.</p>
+        </div>
+
+        <div style="text-align: center; padding: 24px 16px;">
+          <div style="font-size: 2.5rem; margin-bottom: 12px;">🌐</div>
+          <h3 style="font-size: 1rem; margin-bottom: 8px;">Pure Web Stack</h3>
+          <p style="font-size: 0.85rem;">No frameworks, no servers, no tracking. A simple HTML/CSS/JS frontend that deploys anywhere in seconds.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══ CTA ═══════════════════════════════════════════════════ -->
+<section class="section" style="padding-top: 0; padding-bottom: 100px; text-align: center;">
+  <div class="container">
+    <h2 style="margin-bottom: 16px;">Ready to forge better prompts?</h2>
+    <p style="margin-bottom: 32px; max-width: 480px; margin-left: auto; margin-right: auto;">
+      Head over to the generator and craft your first prompt in under 60 seconds.
+    </p>
+    <a href="index.html" class="btn btn-primary btn-lg">⚡ Open the Generator</a>
+  </div>
+</section>
+
+
+<!-- ══ FOOTER ═══════════════════════════════════════════════ -->
+<footer id="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">⚡</div>
+          Prompt<span>Forge</span>
+        </a>
+        <p>Generate high-quality AI prompts in seconds. Powered by Llama 3.3 via Groq.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="index.html">Generator</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="footer-year"></span> PromptForge. All rights reserved.</span>
+      <span class="footer-badge">⚡ Groq · Llama 3.3</span>
+    </div>
+  </div>
+</footer>
+
+<div id="toast-container"></div>
+<script src="main.js"></script>
+<script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
